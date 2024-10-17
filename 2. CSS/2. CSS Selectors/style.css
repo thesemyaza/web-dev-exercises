@@ -1,0 +1,32 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+
+
+/*1. tag varsa sadece tag ismi yaziyoruz.*/
+p{
+  color:red;
+}
+
+/*2. class varsa . kullaniyoruz.*/
+.note{
+  font-size: 20px;
+}
+
+/*3. id varsa # kullaniyoruz.*/
+#id-selector-demo{
+  color:green;
+}
+
+/*4. attribute varsa [attribute='value'] kullaniyoruz.*/
+li[value='4']{
+  color: blue;}
+
+/* her seyi duzenlemek istiyorsak asteriks kullaniyoruz*/
+*{
+  text-align: center;
+}
